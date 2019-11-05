@@ -1,0 +1,23 @@
+{
+  "name": "q",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasprimo/git_bootstrap_les_chefs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasprimo/git_bootstrap_les_chefs/issues"
+  },
+  "homepage": "https://github.com/nicolasprimo/git_bootstrap_les_chefs#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "bootstrap": "^4.3.1"
+  }
+}
