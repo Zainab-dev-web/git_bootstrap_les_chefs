@@ -7,25 +7,49 @@ $fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss"
 
-body 
-    background-image: ("./public/images/main_bg.jpg")
-    background-size: cover
-    margin: 0 15%
-    h1 
-        color: green
+// @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap')
 
-        .contenair
+body 
+    background-image: url("../../public/images/main_bg.jpg")
+    background-size: cover
+    background-repeat: repeat
+    // margin: 0 15%
+    
+    .contenair
     header
         position: absolute 
-   
-        nav
-            z-index: -1
+        nav 
             .ulnav li
                 list-style: none
                 transform-style: none
-                color: green
-        .imgheader
-                 opacity:2   
+                
+                a 
+                    color: white
+                    &hover
+                        background-color: red 
+        .contenair2
+            position: absolute
+            .sombre
+            #carouselExampleIndicators
+                .carousel-indicators
+                    li 
+                .carousel-inner
+                    opacity: 0.75
+                    background-color: black
+
+    .sect1
+        h1 
+            font-family: 'Courgette', cursive
+        .contenair3
+            .row
+                .col-3
+                    a
+                        font-family: 'Courgette', cursive
+
+
+
+
+        
 
             
         
