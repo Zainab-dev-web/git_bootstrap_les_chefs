@@ -15497,7 +15497,6 @@ readers do not read off random characters that represent icons */
 
 body {
   background-image: url("../../public/images/main_bg.jpg");
-  background-size: cover;
   background-repeat: repeat;
 }
 body header {
@@ -15507,10 +15506,10 @@ body header nav .ulnav li {
   list-style: none;
   transform-style: none;
 }
-body header nav .ulnav a {
+body header nav .ulnav li a {
   color: white;
 }
-body header nav .ulnav ahover {
+body header nav .ulnav li ahover {
   background-color: red;
 }
 body header .contenair2 {
@@ -15520,10 +15519,45 @@ body header .contenair2 #carouselExampleIndicators .carousel-inner {
   opacity: 0.75;
   background-color: black;
 }
+body .sect1 {
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  padding-bottom: 170px;
+}
+body .sect1 #coin1 {
+  background-image: url("../../public/images/box-left-top.png");
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+body .sect1 #coin2 {
+  background-image: url("../../public/images/box-right-top.png");
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+body .sect1 #coin3 {
+  background-image: url("../../public/images/box-bottom_left.png");
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+body .sect1 #coin4 {
+  background-image: url("../../public/images/box-bottom_right.png");
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
 body .sect1 h1 {
   font-family: "Courgette", cursive;
 }
 body .sect1 .contenair3 .row .col-3 a {
+  font-family: "Courgette", cursive;
+}
+body .sect2 .contenair4 .design {
   font-family: "Courgette", cursive;
 }
 
