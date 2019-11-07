@@ -57,7 +57,7 @@
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-item active text-center">
+                    <div class="carousel-item active text-center" role="listbox">
                         <p class="pcarousel text-center text-white">
                             Whatever your OCCASION, <span class="text-danger">TASTE</span>
                             makes it one to remember!
@@ -95,16 +95,19 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+         <!-- faire ca dans sass: -->
+        <!-- <div id="background-repeat: repeat-x;
+        background-image: url("../images/footer_bottom_decoration_img.png");"></div> -->
         </div>
-
+       
 
     </header>
 
     <section class="sect1 bg-white mx-5">
-        <div id="coin1"></div>
-        <div id="coin2"></div>
-        <div id="coin3"></div>
-        <div id="coin4"></div>
+        <div id="coin1 position-absolute"></div>
+        <div id="coin2 position-absolute ml-auto"></div>
+        <div id="coin3 position-absolute d-flex align-items-end"></div>
+        <div id="coin4 position-absolute d-flex justify-content-end align-items-end"></div>
         <div class="contenair">
 
             <div class="text-center">
@@ -178,7 +181,7 @@
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, nulla.</p>
                                         </div>
                                         <div class="col-1 text-center flex-wrap">
-                                            <p>25$</p>
+                                            <p class="bg-light text-danger">$</>25$</p>
                                         </div>
                                     </div>
                                     <div class="row2 d-flex">
@@ -190,7 +193,7 @@
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, nulla.</p>
                                         </div>
                                         <div class="col-1 flex-wrap">
-                                            <p>25$</p>
+                                            <p> class="bg-light text-danger"2$5$/p>
                                         </div>
                                     </div>
                                     <div class="row2 d-flex">
@@ -202,7 +205,7 @@
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, nulla.</p>
                                         </div>
                                         <div class="col-1 flex-wrap">
-                                            <p>25$</p>
+                                            <p class="bg-light text-danger">$25</p>
                                         </div>
                                     </div>
                                     <div class="row2 d-flex">
@@ -214,7 +217,7 @@
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, nulla.</p>
                                         </div>
                                         <div class="col-1 flex-wrap">
-                                            <p>25$</p>
+                                            <p class="bg-light text-danger">$25</p>
                                         </div>
                                     </div>
                                     <div class="row2 d-flex">
@@ -226,7 +229,7 @@
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, nulla.</p>
                                         </div>
                                         <div class="col-1 flex-wrap">
-                                            <p>25$</p>
+                                            <p class="bg-light text-danger">$25</p>
                                         </div>
                                     </div>
                                 </div>
@@ -241,7 +244,7 @@
                                             </p>
                                         </div>
                                         <div class="col-1 flex-wrap">
-                                            <p>25$</p>
+                                            <p class="bg-light text-danger">$25</p>
 
                                         </div>
                                     </div>
@@ -254,7 +257,7 @@
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, nulla.</p>
                                         </div>
                                         <div class="col-1 flex-wrap">
-                                            <p>25$</p>
+                                            <p class="bg-light text-danger">$25</p>
                                         </div>
                                     </div>
                                     <div class="row2 d-flex">
@@ -266,7 +269,7 @@
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, nulla.</p>
                                         </div>
                                         <div class="col-1 flex-wrap">
-                                            <p>25$</p>
+                                            <p class="bg-light text-danger">$25</p>
                                         </div>
                                     </div>
                                     <div class="row2 d-flex">
@@ -278,7 +281,7 @@
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, nulla.</p>
                                         </div>
                                         <div class="col-1 flex-wrap">
-                                            <p>25$</p>
+                                            <p class="bg-light text-danger">$25</p>
                                         </div>
                                     </div>
                                     <div class="row2 d-flex">
@@ -290,7 +293,7 @@
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, nulla.</p>
                                         </div>
                                         <div class="col-1 flex-wrap">
-                                            <p>25$</p>
+                                            <p class="bg-light text-danger">$25</p>
                                         </div>
                                     </div>
                                 </div>
@@ -735,6 +738,19 @@
         </div>
     </section>
     <section class="sect3 bg-white">
+        <div id="coinn1 position-absolute">
+            <img src="./public/images/box-left-top-grey.png" alt="">
+        </div>
+        <div id="coinn2 position-absolute ml-auto">
+            <img src="./public/images/box-right-top-grey.png" alt="">
+        </div>
+        <div id="coinn3 position-absolute d-flex align-items-end">
+            <img src="./public/images/box-bottom-left-grey.png" alt="">
+        </div>
+        <div id="coinn4 position-absolute d-flex justify-content-end align-items-end">
+            <img src="./public/images/box-bottom_right-grey.png" alt="">
+        </div>
+
         <div class="container">
             <div class="titreinput text-center">
                 <h1><span class="text-danger">BOOK</span> Your Table</h1>
@@ -820,7 +836,7 @@
         </div>
 
 
-        <div>
+        <div class="text-center">
             <h1><span class="text-danger">OUR</span> Blog</h1>
             <div class="image-fluid">
                 <img src="./public/images/decoration_line.png" alt="">
@@ -829,7 +845,7 @@
         <div class="row">
             <div class="col-6">
                 <img src="./public/images/menu_image_3.jpg" alt="">
-                <div class="bg-danger text-white">
+                <div class="bg-danger text-white rounded-2">
                     <p><strong>12</strong>april 2017/<strong>20</strong> Comment/ <strong>35</strong>Likes</p>
                 </div>
                 <h6>Lorem, ipsum.</h6>
@@ -846,11 +862,130 @@
             </div>
         </div>
         <div class="text-center">
-            <button type="button" class="btn btn-danger text-white text-uppercase">know more</button>
+            <button type="button" class="btn btn-danger text-white text-uppercase rounded-2">know more</button>
         </div>
 
     </section>
+    <section class="sect4">
+        <!-- mettre dans sass -->
+<!-- mettre image en background-image : testimonials_background +background-size: cover; -->
 
+        <div class="text-center">
+            <h1><span class="text-danger">CLIENT</span> testimonials</h1>
+            <div class="image-fluid">
+                <img src="./public/images/decoration_line.png" alt="">
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="rounded-circle w-25" src="./public/images/testimonial1.jpg" alt="">
+                        </div>
+                        <div class="col-8 border border-white">
+                            <h6 class="text-white"><strong>
+                                    Lorem, ipsum</strong></h6>
+                            <span class="text-danger">Manager</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, numquam qui culpa delectus
+                                labore quis!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="col-8 border border-white">
+                        <h6 class="text-white"><strong>
+                                Lorem, ipsum</strong></h6>
+                        <span class="text-danger">Manager</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, numquam qui culpa delectus
+                            labore quis!</p>
+                    </div>
+                    <div class="col-4">
+                        <img class="rounded-circle w-25" src="./public/images/testimonial1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <section class="sect5 my-5 mx-auto">
+
+        <div class="text-center">
+            <h1><span class="text-danger">OUR</span> Contact</h1>
+            <div class="image-fluid">
+                <img src="./public/images/decoration_line.png" alt="">
+            </div>
+
+            <div class="container bg-danger text-white text-center mx-auto my-5 px-2 py-3">
+                <i class="fas fa-map-marker-alt fa-3x text-white"></i>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos expedita molestias sapiente.</p>
+                <hr>
+                <i class="fas fa-phone-alt fa-3x text-white"></i>
+                <p>+91-9876543210</p>
+                <hr>
+                <i class="fas fa-envelope fa-3x text-white"></i>
+                <p>abc@abc.com</p>
+            </div>
+    </section>
+<footer class="ftr">
+    <!-- faire ca dans sass: -->
+    <!-- mettre un background-image: footer_background.jpg -->
+        <!-- <div id="background-repeat: repeat-x;
+        background-image: url("../images/bottom_decoration_img.png");"></div> -->
+        
+    <div class="social">
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <h3 class="text-white text-uppercase">About us </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis repellendus incidunt animi voluptatibus ducimus similique non perspiciatis officia enim dolores sit et unde ad, distinctio porro, maxime quidem ipsa veritatis.</p>
+           
+            <i class="fab fa-facebook-f fa-2x text-white"></i>
+            <i class="fab fa-google-plus-g fa-2x text-white"></i>
+            <i class="fab fa-pinterest-p fa-2x text-white"></i>
+            <i class="fab fa-linkedin-in fa-2x text-white"></i>
+        </div>
+        <div class="col-4">
+                <h3 class="text-white text-uppercase">Instagram </h3>
+                <div class="row">
+                    <div class="col-3">
+
+                            <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+                            <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+
+                    </div>
+                    <div class="col-3">
+                            <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+                            <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+                    </div>
+
+                    <div class="col-3">
+                            <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+                            <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+                    </div>
+                    <div class="col-3">
+                            <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+                            <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+                    </div>
+                </div>
+        </div>
+        <div class="col-4">
+                <h3 class="text-white text-uppercase">Popular tags </h3>
+                <div class="badge d-flex flex-nowrap">
+                <span class="badge badge-danger border border-white rounded-2">Restaurant</span>
+                <span class="badge badge-danger border border-white rounded-2">ResponsiveDesign</span>
+                <span class="badge badge-danger border border-white rounded-2">Hotel</span>
+                <span class="badge badge-danger border border-white rounded-2">BlogSection</span>
+                <span class="badge badge-danger border border-white rounded-2">SEO</span>
+                <span class="badge badge-danger border border-white rounded-2">Cuisine</span>
+                <span class="badge badge-danger border border-white rounded-2">Graphic</span>
+                <span class="badge badge-danger border border-white rounded-2">Food</span>
+                </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+    <div class="bg-danger mx-auto p-5"></div>
+</footer>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
