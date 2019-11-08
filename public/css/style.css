@@ -15592,5 +15592,23 @@ body .sect4 {
 body .sect4 .client {
   font-family: "Courgette", cursive;
 }
+body .ftr {
+  background-image: url("../../public/images/bottom_decoration_img.jpg");
+  background-repeat: repeat-x;
+  position: absolute;
+}
+body .ftr .social {
+  background-image: url("../../public/images/footer_background.jpg");
+  padding: 15px;
+}
+body .ftr .social .container {
+  margin: 0;
+}
+body .ftr .social .container .row .col-4 .badge {
+  font-size: 15px;
+}
+body .ftr .social .container .row .col-4 .badge .badge-m {
+  margin: 5px;
+}
 
 /*# sourceMappingURL=style.css.map */
