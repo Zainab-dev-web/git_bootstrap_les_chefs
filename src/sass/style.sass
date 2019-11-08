@@ -89,6 +89,18 @@ body
     .contenair3
         .row
             .col-2
+                .nav-pills .nav-link.active, .nav-pills .show > .nav-link
+                    border-right: 5px solid red 
+                    border-radius: 0
+
+                    i 
+                        color: red 
+                a:hover 
+                    border-right: 5px solid red
+                    i 
+                        color: red
+                        
+
                 .nav-link
                     font-family: 'Courgette', cursive
                 
@@ -108,6 +120,17 @@ body
             .titreinput
                 font-family: 'Courgette', cursive
         .container
+            .row
+                input, select
+                    width: 35vh
+                    height: 5vh
+                    margin: 15px 0
+                    background-color: white
+                    border: solid 1px grey
+                    border-radius: 25px 
+            .btn
+                border-radius: 25px
+                    
             .container-fluid
                 background-image: url("../../public/images/book_table_bg.jpg")
                 border-radius: 15px

@@ -15566,6 +15566,19 @@ body .sect1 #coin4 {
 body .sect1 h1 {
   font-family: "Courgette", cursive;
 }
+body .contenair3 .row .col-2 .nav-pills .nav-link.active, body .contenair3 .row .col-2 .nav-pills .show > .nav-link {
+  border-right: 5px solid red;
+  border-radius: 0;
+}
+body .contenair3 .row .col-2 .nav-pills .nav-link.active i, body .contenair3 .row .col-2 .nav-pills .show > .nav-link i {
+  color: red;
+}
+body .contenair3 .row .col-2 a:hover {
+  border-right: 5px solid red;
+}
+body .contenair3 .row .col-2 a:hover i {
+  color: red;
+}
 body .contenair3 .row .col-2 .nav-link {
   font-family: "Courgette", cursive;
 }
@@ -15586,6 +15599,17 @@ body .sect3 {
 }
 body .sect3 .coinn1 .titreinput {
   font-family: "Courgette", cursive;
+}
+body .sect3 .container .row input, body .sect3 .container .row select {
+  width: 35vh;
+  height: 5vh;
+  margin: 15px 0;
+  background-color: white;
+  border: solid 1px grey;
+  border-radius: 25px;
+}
+body .sect3 .container .btn {
+  border-radius: 25px;
 }
 body .sect3 .container .container-fluid {
   background-image: url("../../public/images/book_table_bg.jpg");
