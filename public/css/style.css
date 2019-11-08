@@ -15522,7 +15522,7 @@ body header .contenair2 #carouselExampleIndicators .carousel-inner {
 }
 body header .contenair2 #carouselExampleIndicators .carousel-item .pcarousel {
   font-family: "Courgette", cursive;
-  font-size: 30px;
+  font-size: 60px;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 50px;
@@ -15569,6 +15569,9 @@ body .sect1 h1 {
 body .contenair3 .row .col-2 .nav-link {
   font-family: "Courgette", cursive;
 }
+body .contenair3 .row .col-2 .nav-link .fas:active {
+  color: #dc3545;
+}
 body .contenair3 .row .col-2 .active {
   background-color: transparent;
 }
@@ -15600,8 +15603,14 @@ body .sect4 {
   background-size: cover;
   padding: 50px;
 }
-body .sect4 .client {
+body .sect4 .client .design3 {
   font-family: "Courgette", cursive;
+}
+body .sect4 .client .row .col-6 .row .col-4 img {
+  border: 3px solid white;
+}
+body .sect4 .client .row .col-6 .row .col-7 {
+  border: 3px solid white;
 }
 body .sect5 .red .design2 {
   font-family: "Courgette", cursive;
