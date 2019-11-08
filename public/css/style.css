@@ -15581,10 +15581,16 @@ body .sect2 .container .design {
 body .sect3 {
   background-color: white;
 }
-body .sect3 .container-fluid {
+body .sect3 .coinn1 .titreinput {
+  font-family: "Courgette", cursive;
+}
+body .sect3 .container .container-fluid {
   background-image: url("../../public/images/book_table_bg.jpg");
   border-radius: 15px;
   background-size: cover;
+}
+body .sect3 .blog {
+  font-family: "Courgette", cursive;
 }
 body .sect3 .blog .menu {
   background-size: 200px 100px;
@@ -15597,23 +15603,23 @@ body .sect4 {
 body .sect4 .client {
   font-family: "Courgette", cursive;
 }
-body .ftr {
-  background-image: url("../../public/images/bottom_decoration_img.jpg");
-  background-repeat: repeat-x;
-  position: absolute;
+body .sect5 .red .design2 {
+  font-family: "Courgette", cursive;
+}
+body .ftr .dent2 .dentelle2 {
+  background-image: url("../../public/images/footer_bottom_decoration_img.png");
+  height: 10px;
 }
 body .ftr .social {
   background-image: url("../../public/images/footer_background.jpg");
   padding: 15px;
 }
-body .ftr .social .container {
-  margin: 0;
-}
-body .ftr .social .container .row .col-4 .badge {
+body .ftr .social .row .col-4 .badge {
   font-size: 15px;
 }
-body .ftr .social .container .row .col-4 .badge .badge-m {
+body .ftr .social .row .col-4 .badge .badge-m {
   margin: 5px;
+  border-radius: 50%;
 }
 body .sect5 .red .container {
   border-radius: 10px;
