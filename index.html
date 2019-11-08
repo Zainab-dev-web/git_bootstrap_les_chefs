@@ -100,6 +100,11 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+                <div class="dent">
+                    <div class="dentelle">
+
+                    </div>
+                </div>
                 <!-- faire ca dans sass: -->
                 <!-- <div id="background-repeat: repeat-x;
             background-image: url("../images/footer_bottom_decoration_img.png");"></div> -->
@@ -110,34 +115,36 @@
     </header>
 
     <section class="sect1 bg-white mx-5">
-        <div id="coin1 position-absolute"></div>
-        <div id="coin2 position-absolute ml-auto"></div>
-        <div id="coin3 position-absolute d-flex align-items-end"></div>
-        <div id="coin4 position-absolute d-flex justify-content-end align-items-end"></div>
-        <div class="contenair">
 
-            <div class="text-center">
+
+        <div class="row">
+            <div class="col-3">
+                img avec le coin top gauche dans sass mettre un height de 10px
+            </div>
+
+            <div class=" col-6 mx-auto text-center">
 
                 <h1 class="text-center"><span class="text-danger">OUR</span> story</h1>
                 <img class="" src="./public/images/decoration_line.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, in omnis nemo eveniet atque quod
+                    perspiciatis nostrum? Expedita, voluptatum. Delectus, ab. Eveniet quas aut vitae adipisci quia
+                    fuga
+                    soluta quam.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quisquam incidunt ratione unde
+                    quibusdam vero natus ipsum aliquam laborum voluptate molestias eius nisi, odio libero
+                    consectetur culpa facilis et deserunt.</p>
             </div>
-            <div class="row">
-                <div class="col-6 text-center mx-auto">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, in omnis nemo eveniet atque quod
-                        perspiciatis nostrum? Expedita, voluptatum. Delectus, ab. Eveniet quas aut vitae adipisci quia
-                        fuga
-                        soluta quam.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quisquam incidunt ratione unde
-                        quibusdam vero natus ipsum aliquam laborum voluptate molestias eius nisi, odio libero
-                        consectetur culpa facilis et deserunt.</p>
+            <div class="col-3">
+                img coin droit top sass mettre un heigt de 10px
+            </div>
 
-                </div>
-            </div>
-            <div class="text-center">
+        </div>
+        </div>
+        <div class="text-center">
 
-                <h1 class="text-center"><span class="text-danger">OUR</span> Menu List</h1>
-                <img class="text-center" src="./public/images/decoration_line.png" alt="">
-            </div>
+            <h1 class="text-center"><span class="text-danger">OUR</span> Menu List</h1>
+            <img class="text-center" src="./public/images/decoration_line.png" alt="">
+        </div>
         </div>
         <div class="contenair3">
 
@@ -745,25 +752,31 @@
         </div>
     </section>
     <section class="sect3 bg-white m-0 py-5">
-        <div id="coinn1 position-absolute">
-            <img src="./public/images/box-left-top-grey.png" alt="">
-        </div>
-        <div id="coinn2 position-absolute ml-auto">
-            <img src="./public/images/box-right-top-grey.png" alt="">
-        </div>
-        <div id="coinn3 position-absolute d-flex align-items-end">
-            <img src="./public/images/box-bottom-left-grey.png" alt="">
-        </div>
-        <div id="coinn4 position-absolute d-flex justify-content-end align-items-end">
-            <img src="./public/images/box-bottom_right-grey.png" alt="">
-        </div>
+        <div class="coinn1 row">
+            <div class="col-3 text-left">
+                <img src="./public/images/box-left-top-grey.png" alt="">
+            </div>
+            <div class="col-6 titreinput mx-auto p-5 text-center">
 
-        <div class="container">
-            <div class="titreinput mx-auto p-5 text-center">
                 <h1><span class="text-danger">BOOK</span> Your Table</h1>
                 <img src="./public/images/decoration_line.png" alt="">
+
             </div>
-            <div class="container-fluid w-75 mx-auto p-5">
+            <div class="col-3 text-right">
+
+                <img src="./public/images/box-right-top-grey.png" alt="">
+
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <!-- <div class="titreinput mx-auto p-5 text-center">
+                <h1><span class="text-danger">BOOK</span> Your Table</h1>
+                <img src="./public/images/decoration_line.png" alt="">
+            </div> -->
+            <div class="container-fluid  mx-auto p-5">
 
                 <div>
                     <h5 class="text-white text-center">For any query please call us at: <strong>+91-1234567890</h5>
@@ -841,10 +854,19 @@
 
                     </div>
                 </div>
-                <div class="text-center pt-3">
-                    <button type="button" class="btn btn-danger text-white text-uppercase rounded-2">Book Now</button>
+
+                <div class="row">
+
+                    <div class=" col-6 text-center pt-3">
+                        <button type="button" class="btn btn-danger text-white text-uppercase rounded-2">Book
+                            Now</button>
+                    </div>
                 </div>
+
             </div>
+
+        </div>
+        </div>
         </div>
 
 
@@ -873,8 +895,21 @@
 
             </div>
         </div>
-        <div class="text-center pb-5">
-            <button type="button" class="btn btn-danger text-white text-uppercase rounded-2">know more</button>
+        <div class="row">
+            <div class="col-3 text-left">
+
+                <img src="./public/images/box-bottom-left-grey.png" alt="">
+            </div>
+            <div class="col-6">
+                <div class="text-center pb-5">
+                    <button type="button" class="btn btn-danger text-white text-uppercase rounded-2">know more</button>
+                </div>
+            </div>
+            <div class="col-3 text-right">
+
+                <img src="./public/images/box-bottom_right-grey.png" alt="">
+            </div>
+
         </div>
 
     </section>
@@ -925,23 +960,24 @@
     </section>
     <section class="sect5 my-5 mx-auto">
 
-        <div class="text-center">
+        <div class=" red text-center w-40">
             <h1><span class="text-danger">OUR</span> Contact</h1>
             <div class="image-fluid">
                 <img src="./public/images/decoration_line.png" alt="">
             </div>
 
-            <div class="container bg-danger text-white text-center mx-auto my-5 px-2 py-3">
+            <div class="container bg-danger text-white text-center mx-auto my-5 px-2 py-3" style="width: 40rem;">
                 <i class="fas fa-map-marker-alt fa-3x text-white"></i>
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos expedita molestias sapiente.</p>
-                <hr>
+                <hr width="90%" class="hr text-white">
                 <i class="fas fa-phone-alt fa-3x text-white"></i>
                 <p>+91-9876543210</p>
-                <hr>
+                <hr width="90%" class="hr text-white">
                 <i class="fas fa-envelope fa-3x text-white"></i>
                 <p>abc@abc.com</p>
             </div>
+        </div>
     </section>
     <footer class="ftr">
         <!-- faire ca dans sass: -->

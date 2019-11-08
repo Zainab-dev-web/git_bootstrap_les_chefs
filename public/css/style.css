@@ -15527,6 +15527,10 @@ body header .contenair2 #carouselExampleIndicators .carousel-item .pcarousel {
   margin-bottom: 15px;
   padding: 50px;
 }
+body header .contenair2 .dent .dentelle {
+  background-image: url("../../public/images/bottom_decoration_img.png");
+  height: 10px;
+}
 body .sect1 {
   background-color: white;
   margin-top: 30px;
@@ -15580,6 +15584,7 @@ body .sect3 {
 body .sect3 .container-fluid {
   background-image: url("../../public/images/book_table_bg.jpg");
   border-radius: 15px;
+  background-size: cover;
 }
 body .sect3 .blog .menu {
   background-size: 200px 100px;
@@ -15609,6 +15614,12 @@ body .ftr .social .container .row .col-4 .badge {
 }
 body .ftr .social .container .row .col-4 .badge .badge-m {
   margin: 5px;
+}
+body .sect5 .red .container {
+  border-radius: 10px;
+}
+body .sect5 .red .container .hr {
+  border-top: 1px solid white;
 }
 
 /*# sourceMappingURL=style.css.map */
