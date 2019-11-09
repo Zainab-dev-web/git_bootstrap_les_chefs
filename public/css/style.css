@@ -15619,7 +15619,12 @@ body .sect3 .container .container-fluid {
 body .sect3 .blog {
   font-family: "Courgette", cursive;
 }
-body .sect3 .blog .menu {
+body .sect3 .row .col-5 .menu {
+  background-image: url("../../public/images/menu_3.jpg");
+  background-size: 200px 100px;
+}
+body .sect3 .row .col-5 .menu2 {
+  background-image: url("../../public/images/menu_4.jpg");
   background-size: 200px 100px;
 }
 body .sect4 {
@@ -15634,7 +15639,9 @@ body .sect4 .client .row .col-6 .row .rgros {
   border-radius: 5px solid white;
 }
 body .sect4 .client .row .col-6 .row .col-7 {
-  border: 3px solid white;
+  border-width: 15px;
+  border-color: white;
+  border-style: solid;
 }
 body .sect5 .red .design2 {
   font-family: "Courgette", cursive;
@@ -15647,10 +15654,10 @@ body .ftr .social {
   background-image: url("../../public/images/footer_background.jpg");
   padding: 15px;
 }
-body .ftr .social .row .col-4 .badge {
+body .ftr .social .row .col-4 .badget {
   font-size: 15px;
 }
-body .ftr .social .row .col-4 .badge .badge-m {
+body .ftr .social .row .col-4 .badget .badge-m {
   margin: 5px;
   border-radius: 50%;
 }
