@@ -15581,6 +15581,9 @@ body .contenair3 .row .col-2 a:hover i {
 }
 body .contenair3 .row .col-2 .nav-link {
   font-family: "Courgette", cursive;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  border-radius: 0;
 }
 body .contenair3 .row .col-2 .nav-link .fas:active {
   color: #dc3545;
@@ -15610,6 +15613,8 @@ body .sect3 .container .row input, body .sect3 .container .row select {
 }
 body .sect3 .container .btn {
   border-radius: 25px;
+  margin-bottom: 50px;
+  margin-top: 25px;
 }
 body .sect3 .container .container-fluid {
   background-image: url("../../public/images/book_table_bg.jpg");
@@ -15619,13 +15624,18 @@ body .sect3 .container .container-fluid {
 body .sect3 .blog {
   font-family: "Courgette", cursive;
 }
-body .sect3 .row .col-5 .menu {
-  background-image: url("../../public/images/menu_3.jpg");
-  background-size: 200px 100px;
+body .sect3 .row .col-6 .dgris .imggris {
+  border-radius: 15px;
+  border: 5px solid #e4e4e4;
 }
-body .sect3 .row .col-5 .menu2 {
-  background-image: url("../../public/images/menu_4.jpg");
-  background-size: 200px 100px;
+body .sect3 .row .dred .dred2 {
+  z-index: 1;
+}
+body .sect3 .row .dred .dred2 .pred {
+  border-radius: 15px;
+}
+body .sect3 .row .col-6 .dcol .btn {
+  border-radius: 25px;
 }
 body .sect4 {
   background-image: url("../../public/images/testimonials_background.jpg");
@@ -15636,7 +15646,7 @@ body .sect4 .client .design3 {
   font-family: "Courgette", cursive;
 }
 body .sect4 .client .row .col-6 .row .rgros {
-  border-radius: 5px solid white;
+  border-radius: 5px solid #e4e4e4 !important;
 }
 body .sect4 .client .row .col-6 .row .col-7 {
   border-width: 15px;
@@ -15659,7 +15669,7 @@ body .ftr .social .row .col-4 .badget {
 }
 body .ftr .social .row .col-4 .badget .badge-m {
   margin: 5px;
-  border-radius: 50%;
+  border-radius: 25%;
 }
 body .sect5 .red .container {
   border-radius: 10px;
