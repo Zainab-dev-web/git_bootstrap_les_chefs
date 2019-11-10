@@ -15609,7 +15609,7 @@ body .sect3 .container .row input, body .sect3 .container .row select {
   margin: 15px 0;
   background-color: white;
   border: solid 1px grey;
-  border-radius: 25px;
+  border-radius: 10git px;
 }
 body .sect3 .container .btn {
   border-radius: 25px;
@@ -15624,15 +15624,18 @@ body .sect3 .container .container-fluid {
 body .sect3 .blog {
   font-family: "Courgette", cursive;
 }
+body .sect3 .row .col-6 .dgris {
+  position: relative;
+}
 body .sect3 .row .col-6 .dgris .imggris {
   border-radius: 15px;
   border: 5px solid #e4e4e4;
 }
-body .sect3 .row .dred .dred2 {
-  z-index: 1;
-}
 body .sect3 .row .dred .dred2 .pred {
   border-radius: 15px;
+  position: absolute;
+  z-index: 5;
+  bottom: 25px;
 }
 body .sect3 .row .col-6 .dcol .btn {
   border-radius: 25px;
